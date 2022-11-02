@@ -1,0 +1,45 @@
+.TH hsh 1 "02 Novermber 2022" "Ishmael & Lesly version 1.0" "General Commands Manual"
+.hy
+.SH NAME
+.PP
+hsh - A simple UNIX command interpreter
+.PP
+.SH SYNOPSIS
+#include "shell.h"
+
+hsh [options] [command_string | file]
+
+.SH DESCRIPTION
+.PP
+hsh is an
+.B sh-compatible
+command interpreter.
+
+hsh will work the same way as sh found in(/bin/sh)
+
+.SH OPTIONS
+.PP
+All linux commands work on our shell.
+
+
+.SH EXIT STATUS
+.PP
+Typing exit will exit the shell.
+
+.SH BUGS
+To be determined
+
+.SH AUTHORS
+.PP
+NAME:
+.B Ishmael Ndou
+.RS i
+EMAIL:
+.B ndouishmael@gmail.com
+
+.PP
+NAME:
+.B Thikho Mulovhedzi
+.RS i
+EMAIL:
+.B tcolazlo5@gmail.com
